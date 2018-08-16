@@ -13,10 +13,13 @@
 ## Seperate Files and Explainations
 
 <b>logistic_regression.py</b>   
-```This sorts through the schema laid down to parse relevant columns, the ones that actually have data in them.```  
+ - This sorts through the schema laid down to parse relevant columns, the ones that actually have data in them.
+ 
 <b>logistic_regression_2.py</b>    
-```This sorts through the entire | delimited list to find the AUC and LOGLOSS of the entire folder, I use this to compare in logloss_gain.py to determine which columns are detrimental and which are positive to the overall model.```  
+ - This sorts through the entire | delimited list to find the AUC and LOGLOSS of the entire folder, I use this to compare in logloss_gain.py to determine which columns are detrimental and which are positive to the overall model.  
+ 
 <b>logloss_gain.py</b>    
-```This sorts through the file with all the results in them to determine which features are positive & negative to our model.```  
+ - This sorts through the file with all the results in them to determine which features are positive & negative to our model.   
+ 
 <b>test_ftrl.py</b>    
-```This uses Google's Follow-The-Regulated-Leader to adjust footstep length in logistic regression. Supposedly both faster and better than logistic regression.```
+ - This uses Google's Follow-The-Regulated-Leader to adjust footstep length in logistic regression. Supposedly both faster and better than logistic regression.
